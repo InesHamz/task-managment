@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ticket should match the snapshot 1`] = `
+.c0 {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.c0 button:hover {
+  cursor: pointer;
+}
+
+<body>
+  <div>
+    <div
+      class="c0"
+      draggable="true"
+    >
+      <span
+        title="ticket"
+      >
+        test
+      </span>
+      <button>
+        Edit
+      </button>
+    </div>
+  </div>
+</body>
+`;
